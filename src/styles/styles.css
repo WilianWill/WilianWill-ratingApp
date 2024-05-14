@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background: hsl(216, 12%, 8%);
+  color: hsl(217, 12%, 63%);
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  background: hsl(213, 19%, 18%);
+  border-radius: 20px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  margin: auto;
+  width: 300px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  z-index: 1;
+}
+
+.star {
+  height: 30px;
+  width: 30px;
+  background: hsl(215, 8%, 31%);
+  border-radius: 50px;
+  text-align: center;
+  line-height: 2;
+  align-items: center;
+}
+
+.content h1 {
+  color: hsl(0, 0%, 100%);
+}
+
+button {
+  display: block;
+  border-radius: 50%;
+  background: hsl(218, 10%, 23%);
+  width: 40px;
+  height: 40px;
+  line-height: 2.5;
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  border: none;
+}
+
+.number-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.number-buttons button:hover {
+  transform: scale(1.5);
+  transition: 0.3s ease;
+}
+
+.number-buttons button:focus {
+  background: hsl(217, 16%, 72%);
+  color: black;
+}
+
+.submit {
+  text-align: center;
+}
+
+.submit button {
+  border: none;
+  background: hsl(25, 97%, 53%);
+  width: 300px;
+  height: 40px;
+  color: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.submit button:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  box-shadow: 1px 1px 2px 2px rgb(63, 45, 12);
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* THANKS MESSAGE */
+
+.thanks-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.thanks-message h1 {
+  align-self: center;
+}
+.thanks-message p {
+  text-align: center;
+}
+
+.thanks-message span {
+  color: orange;
+  background: hsl(222, 6%, 31%);
+  height: 20px;
+  padding: 10px;
+  border-radius: 40px;
+}
+*/ .thanks-message p {
+  text-align: center;
+}
+/* Hidden props */
+#hidden {
+  display: none;
+}
+
+#main-hidden {
+  display: flex;
+}
